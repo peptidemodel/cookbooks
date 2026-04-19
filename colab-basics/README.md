@@ -6,6 +6,19 @@ decision, without requiring a local Linux machine or expensive cloud compute.
 
 ---
 
+## Quick Start in Colab
+
+1. Click any badge below to open the notebook in Colab.
+2. In Colab, add a new code cell **above** the first cell and run:
+   ```python
+   !git clone https://github.com/peptidemodel/cookbooks /content/cookbooks
+   ```
+3. Then run the notebook cells in order from the top.
+
+Start with **notebook 01** — do not open a later notebook first.
+
+---
+
 ## Who This Is For
 
 - Researchers who want to run peptide design explorations in Google Colab

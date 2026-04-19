@@ -8,12 +8,8 @@ decision, without requiring a local Linux machine or expensive cloud compute.
 
 ## Quick Start in Colab
 
-1. Click any badge below to open the notebook in Colab.
-2. In Colab, add a new code cell **above** the first cell and run:
-   ```python
-   !git clone https://github.com/peptidemodel/cookbooks /content/cookbooks
-   ```
-3. Then run the notebook cells in order from the top.
+1. Click the **notebook 01** badge below.
+2. Run the cells in order from the top — the repo clones itself automatically on first run.
 
 Start with **notebook 01** — do not open a later notebook first.
 

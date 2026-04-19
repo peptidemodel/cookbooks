@@ -1,0 +1,28 @@
+{
+  "pdb_id": "3HH2",
+  "chain_id": "C",
+  "pocket_residue_ids": [43, 44, 45, 78, 79, 80, 81, 82, 110, 111, 112],
+  "mechanism_hypothesis": "Short peptides derived from activin type-II receptor interface may compete with the natural receptor binding surface.",
+  "pocket_description": "Activin type-II receptor binding surface",
+  "numbering_note": "Residue IDs are as they appear in the downloaded PDB file. If you use a renumbered or cleaned structure, update this field.",
+  "reference_policy": {
+    "positive_control": {
+      "sequence": "FSRIEGQYTKLNRSFM",
+      "source": "internal-proxy — replace with an actual benchmark sequence for your target"
+    },
+    "negative_controls": [
+      "AAAAAAAAAAAA",
+      "FMSRKLNEQGTIY"
+    ]
+  },
+  "pocket_hints": {
+    "pocket_net_charge_hint": 2.0,
+    "pocket_hydrophobic_hint": 0.30,
+    "optimal_length_min": 8,
+    "optimal_length_max": 20,
+    "note": "These hints guide the heuristic scoring lane in notebooks 02-04. They are not physics-derived — adjust them based on your knowledge of the pocket. For the myostatin ActRII binding surface the interface is predominantly polar/charged (hydrophobic_hint ~0.30), not moderately hydrophobic (0.55 would cause poly-Ala to outscore the reference on the hydrophobic sub-score)."
+  },
+  "notes": "This is an example target spec for the teaching notebook. Do not use the sequences here as real references for myostatin research without verifying them against the literature.",
+  "cookbook": "colab-basics",
+  "version": "1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "seeds": [42],
+  "queries": {
+    "target_candidate_a_preview": {
+      "chains": [
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["A"],
+          "sequence": "TARGET_SEQUENCE_HERE"
+        },
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["B"],
+          "sequence": "CANDIDATE_PEPTIDE_SEQUENCE_HERE"
+        }
+      ]
+    }
+  }
+}

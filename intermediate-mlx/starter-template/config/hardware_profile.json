@@ -1,0 +1,11 @@
+{
+  "hardware": "replace-me",
+  "memory_gb": 16,
+  "python_version": "replace-me",
+  "mlx_version": "replace-me",
+  "weights_path": "replace-me",
+  "weights_hash": "replace-me",
+  "runner_yaml": "replace-me",
+  "entrypoint": "replace-me",
+  "notes": "Document the environment that actually worked."
+}

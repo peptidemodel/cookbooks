@@ -1,0 +1,30 @@
+{
+  "panel_name": "phase1_reference_calibration",
+  "purpose": "Minimal reference panel used to validate the lane before candidate design.",
+  "rows": [
+    {
+      "label": "primary_positive",
+      "sequence": "REPLACE_ME",
+      "role": "positive_control",
+      "hypothesis": "Should recover the intended pocket or target surface better than negatives."
+    },
+    {
+      "label": "secondary_positive",
+      "sequence": "REPLACE_ME",
+      "role": "weaker_or_proxy_positive",
+      "hypothesis": "Should behave plausibly but not necessarily as strongly as the primary positive."
+    },
+    {
+      "label": "scrambled_positive",
+      "sequence": "REPLACE_ME",
+      "role": "negative_control",
+      "hypothesis": "Composition-preserving scramble should not behave like the real binder."
+    },
+    {
+      "label": "poly_ala_control",
+      "sequence": "REPLACE_ME",
+      "role": "negative_control",
+      "hypothesis": "Composition floor should fail geometry and specificity."
+    }
+  ]
+}

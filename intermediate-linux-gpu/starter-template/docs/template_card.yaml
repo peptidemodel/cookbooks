@@ -1,0 +1,19 @@
+title: "Replace Me"
+sequence: "REPLACE_ME"
+targets:
+  - glp-1r
+scaffold: "Replace Me"
+parent_card: pep-00000
+status: computed
+
+metrics:
+  - key: ipTM
+    value: 0.0
+    tool: "Replace Me"
+
+source:
+  kind: other
+  notes: "Replace Me"
+
+structure_file: structure.pdb
+readme_file: readme.md

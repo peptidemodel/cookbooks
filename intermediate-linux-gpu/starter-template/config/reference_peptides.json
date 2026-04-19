@@ -1,0 +1,20 @@
+{
+  "references": [
+    {
+      "label": "primary_positive",
+      "sequence": "REPLACE_ME",
+      "role": "positive_control",
+      "provenance": "primary-paper-backed | secondary-source-backed | structure-derived | proxy-sequence | legacy-internal",
+      "source": "replace-me",
+      "notes": "Use a real benchmark or explain why this is the best available proxy."
+    },
+    {
+      "label": "secondary_positive",
+      "sequence": "REPLACE_ME",
+      "role": "weaker_or_proxy_positive",
+      "provenance": "replace-me",
+      "source": "replace-me",
+      "notes": "Optional but strongly recommended."
+    }
+  ]
+}

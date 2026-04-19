@@ -1,0 +1,33 @@
+{
+  "seeds": [42],
+  "queries": {
+    "target_positive_preview": {
+      "chains": [
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["A"],
+          "sequence": "TARGET_SEQUENCE_HERE"
+        },
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["B"],
+          "sequence": "POSITIVE_PEPTIDE_SEQUENCE_HERE"
+        }
+      ]
+    },
+    "target_negative_preview": {
+      "chains": [
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["A"],
+          "sequence": "TARGET_SEQUENCE_HERE"
+        },
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["B"],
+          "sequence": "NEGATIVE_PEPTIDE_SEQUENCE_HERE"
+        }
+      ]
+    }
+  }
+}

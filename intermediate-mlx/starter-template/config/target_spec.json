@@ -1,0 +1,25 @@
+{
+  "project_name": "replace-me",
+  "downstream_mode": "replace-me",
+  "canonical_structure_format": "replace-me",
+  "target_id": "replace-me",
+  "target_display_name": "replace-me",
+  "target_sequence_source": {
+    "type": "uniprot_or_internal_record",
+    "id": "replace-me",
+    "notes": "Record the authoritative sequence source here."
+  },
+  "default_chain_order": {
+    "target": "A",
+    "peptide": "B"
+  },
+  "state_file": "pipeline/manifests/state.json",
+  "preview_mode": {
+    "num_diffusion_samples": 1,
+    "allowed_claim": "environment proof or coarse triage only"
+  },
+  "upgrade_mode": {
+    "trigger": "Preview controls are directionally sensible and a stronger decision is needed.",
+    "notes": "Specify your multi-sample or orthogonal-validation plan."
+  }
+}

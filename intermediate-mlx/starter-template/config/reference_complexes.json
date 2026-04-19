@@ -1,0 +1,18 @@
+[
+  {
+    "id": "positive_reference_1",
+    "target_id": "replace-me",
+    "peptide_sequence": "REPLACE_ME",
+    "role": "positive",
+    "source": "primary paper or trusted internal benchmark",
+    "notes": "Record provenance, proxy status, and why this matters."
+  },
+  {
+    "id": "negative_reference_1",
+    "target_id": "replace-me",
+    "peptide_sequence": "REPLACE_ME",
+    "role": "negative",
+    "source": "designed scrambled or damaged control",
+    "notes": "Every project should have at least one real negative."
+  }
+]

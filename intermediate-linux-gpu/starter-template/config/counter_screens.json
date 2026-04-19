@@ -1,0 +1,22 @@
+{
+  "counter_screens": [
+    {
+      "label": "hotspot_killed_decoy",
+      "type": "decoy",
+      "purpose": "Test whether the peptide depends on the intended interface patch.",
+      "construction_notes": "Mutate the key hotspot residues to Ala or other neutral residues and preserve the rest of the target unchanged."
+    },
+    {
+      "label": "rotated_surface_decoy",
+      "type": "decoy",
+      "purpose": "Test whether the lane just likes any exposed surface.",
+      "construction_notes": "Translate or rotate the peptide seed away from the intended pocket or reorient the contact surface so the same pocket cannot be trivially reused."
+    },
+    {
+      "label": "wrong_face_decoy",
+      "type": "decoy",
+      "purpose": "Test whether the peptide has real spatial preference.",
+      "construction_notes": "Use a target face that should not be relevant to the intended mechanism while preserving overall target composition."
+    }
+  ]
+}

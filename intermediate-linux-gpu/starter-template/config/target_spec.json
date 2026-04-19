@@ -1,0 +1,27 @@
+{
+  "project_name": "replace-me",
+  "downstream_mode": "replace-me",
+  "canonical_structure_format": "replace-me",
+  "state_file": "pipeline/manifests/state.json",
+  "target_name": "replace-me",
+  "project_type": "peptide-research",
+  "mechanism_hypothesis": "Replace this with the biological mechanism you are actually testing.",
+  "primary_structure": {
+    "source_type": "pdb_or_model",
+    "identifier": "replace-me",
+    "target_chain": "replace-me",
+    "note": "Document exactly which chain is treated as the target."
+  },
+  "numbering_policy": {
+    "source_numbering_required": true,
+    "predicted_numbering_mapping_required": true,
+    "note": "Never assume source numbering and predicted-complex numbering are identical."
+  },
+  "hotspot_policy": {
+    "hotspots_defined": false,
+    "hotspot_source": "replace-me",
+    "note": "If hotspots are not yet known, say so explicitly."
+  },
+  "current_phase": "phase0_target_freeze",
+  "next_gate": "Reference calibration must pass before candidate generation expands."
+}

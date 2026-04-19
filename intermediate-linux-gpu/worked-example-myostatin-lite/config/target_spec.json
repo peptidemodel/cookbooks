@@ -1,0 +1,25 @@
+{
+  "project": "worked-example-myostatin-lite",
+  "status": "teaching-example",
+  "target_name": "myostatin_gdf8",
+  "primary_structure": {
+    "pdb": "3HH2",
+    "target_chain": "C",
+    "note": "Use one explicit target chain and freeze it in writing before any design work."
+  },
+  "mechanism_hypothesis": "Short follistatin-derived peptides may occupy the myostatin-binding surface and compete with the natural interface.",
+  "hotspot_policy": {
+    "source_numbering_required": true,
+    "predicted_complex_mapping_required": true,
+    "note": "Do not assume source numbering and predicted numbering are the same."
+  },
+  "reference_policy": {
+    "positive_control": "real_df3_reference",
+    "secondary_positive": "legacy_internal_seed",
+    "negative_controls": [
+      "poly_ala_14mer",
+      "scrambled_df3"
+    ]
+  },
+  "next_gate": "reference calibration must show real positive behaves better than obvious negatives before candidate design starts"
+}

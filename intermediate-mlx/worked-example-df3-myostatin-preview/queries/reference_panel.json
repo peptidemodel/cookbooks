@@ -1,0 +1,47 @@
+{
+  "seeds": [42],
+  "queries": {
+    "myostatin_realdf3": {
+      "chains": [
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["A"],
+          "sequence": "DFGLDCDEHSTESRCCRYPLTVDFEAFGWDWIIAPKRYKANYCSGECEFVFLQKYPHTHLVHQANPRGSAGPCCTPTKMSPINMLYFNGKEQIIYGKIPAMVVDRCGCS"
+        },
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["B"],
+          "sequence": "VNDNTLFKWMIFNG"
+        }
+      ]
+    },
+    "gdf11_realdf3": {
+      "chains": [
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["A"],
+          "sequence": "NLGLDCDEHSSESRCCRYPLTVDFEAFGWDWIIAPKRYKANYCSGQCEYMFMQKYPHTHLVQQANPRGSAGPCCTPTKMSPINMLYFNDKQQIIYGKIPGMVVDRCGCS"
+        },
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["B"],
+          "sequence": "VNDNTLFKWMIFNG"
+        }
+      ]
+    },
+    "activin_realdf3": {
+      "chains": [
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["A"],
+          "sequence": "GLECDGKVNICCKKQFFVSFKDIGWNDWIIAPSGYHANYCEGECPSHIAGTSGSSLSFHSTVINHYRMRGHSPFANLKSCCVPTKLRPMSMLYYDDGQNIIKKDIQNMIVEECGCS"
+        },
+        {
+          "molecule_type": "protein",
+          "chain_ids": ["B"],
+          "sequence": "VNDNTLFKWMIFNG"
+        }
+      ]
+    }
+  }
+}

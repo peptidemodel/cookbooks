@@ -1,0 +1,24 @@
+title: "pep-00127 — Corrected DF-3 / Myostatin OF3-MLX preview"
+sequence: "VNDNTLFKWMIFNG"
+targets:
+  - myostatin
+scaffold: "DF-3"
+parent_card: pep-00127
+status: computed
+
+metrics:
+  - key: ipTM
+    value: 0.674936830997467
+    tool: "OpenFold3-MLX"
+    run_class: preview
+  - key: sample_ranking_score
+    value: 0.7542499303817749
+    tool: "OpenFold3-MLX"
+    run_class: preview
+
+source:
+  kind: platform_card
+  notes: "Single-seed OF3-MLX preview artifact for corrected Takayama DF-3. Included to show MLX upload package shape; not a final validation claim."
+
+structure_file: structure.cif
+readme_file: readme.md

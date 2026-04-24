@@ -41,6 +41,10 @@ myostatin-gdf8-preview/
     pep-10785.cif
   upload_ready/
     _HOW_TO_USE.md
+    pep-00127-df3/
+      card.yaml
+      structure.cif
+      readme.md
 ```
 
 ## Panel
@@ -65,3 +69,13 @@ This MLX example is deliberately modest: only two OF3-MLX Myostatin cards were
 available. The science project used AF2-Multimer with 25-seed statistical
 scoring and ipSAE-style evaluation; these single-seed OF3-MLX preview scores do
 not reproduce or replace that stronger lane.
+
+## Upload Package
+
+The example includes one concrete MLX-style final package:
+
+- [upload_ready/pep-00127-df3](upload_ready/pep-00127-df3)
+
+This shows the expected MLX end state: a platform card, a `structure.cif`, and a
+short design readme. It remains labeled as preview-derived because the example
+does not include upgraded multi-sample validation.

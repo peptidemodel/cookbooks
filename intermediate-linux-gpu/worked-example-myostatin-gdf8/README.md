@@ -44,6 +44,11 @@ worked-example-myostatin-gdf8/
     phase1_reference_calibration.md
     phase2_target_decoy_results.md
     phase3_candidate_target_decoy_results.md
+  upload_ready/
+    v41f_w49f_i51v/
+      card.yaml
+      structure.pdb
+      readme.md
 ```
 
 ## How To Read It
@@ -54,6 +59,7 @@ worked-example-myostatin-gdf8/
 4. read [phase1_reference_calibration.md](docs/phase1_reference_calibration.md)
 5. read [phase2_target_decoy_results.md](docs/phase2_target_decoy_results.md)
 6. read [phase3_candidate_target_decoy_results.md](docs/phase3_candidate_target_decoy_results.md)
+7. inspect [upload_ready/v41f_w49f_i51v](upload_ready/v41f_w49f_i51v)
 
 ## Main Teaching Point
 
@@ -67,3 +73,12 @@ The example shows the discipline that made the real Myostatin work interpretable
 
 Do not rank candidates until the lane has shown that the known reference depends
 on the intended contact patch and separates from decoys.
+
+## Upload Package
+
+The example includes one concrete final package:
+
+- [upload_ready/v41f_w49f_i51v](upload_ready/v41f_w49f_i51v)
+
+This shows the expected Linux/GPU end state: a platform card, a `structure.pdb`,
+and a short design readme. It is a worked-example artifact, not a wet-lab claim.

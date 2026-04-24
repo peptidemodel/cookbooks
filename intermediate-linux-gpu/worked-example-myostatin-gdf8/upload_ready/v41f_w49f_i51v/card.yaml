@@ -1,0 +1,25 @@
+title: "v41f_w49f_i51v — Myostatin/GDF-8 DF-3 variant"
+sequence: "FNDNTLFKFMVFNG"
+targets:
+  - myostatin
+scaffold: "DF-3-derived"
+parent_card: null
+status: computed
+
+metrics:
+  - key: interface_dG
+    value: -30.606
+    tool: "PyRosetta fixed-backbone interface analysis"
+  - key: delta_vs_hotspot_killed
+    value: 18.196
+    tool: "PyRosetta fixed-backbone interface analysis"
+  - key: delta_vs_rotated
+    value: 30.606
+    tool: "PyRosetta fixed-backbone interface analysis"
+
+source:
+  kind: cookbook
+  notes: "Worked-example package from the Myostatin/GDF-8 Linux/GPU target-decoy lane. Structural prediction only; not experimentally validated."
+
+structure_file: structure.pdb
+readme_file: readme.md

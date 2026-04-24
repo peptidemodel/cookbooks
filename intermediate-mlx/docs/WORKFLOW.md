@@ -221,7 +221,7 @@ Fail:
 If all designs fail the gate:
 
 - say so directly in the chat conclusion
-- do not create `upload_ready/`
+- do not create a design folder under `upload_ready/`
 - keep the designs in local `results/` or `validation/`
 - explain what failed in `research_log.md`
 - suggest what to try next

@@ -31,17 +31,11 @@ Use this starter template if:
 - you do not want to inherit our local tooling choices
 - you want a portable teaching template
 
-Use `projects/_template/` instead if:
-
-- you are working inside this repo
-- you want the existing local runner and notebook conventions immediately
-
 ## Folder Map
 
 ```text
 starter-template/
   README.md
-  README.research.md
   config/
     target_spec.json
     reference_peptides.json
@@ -61,15 +55,20 @@ starter-template/
   pipeline/
     README.md
     manifests/
-  validation/
-    README.md
-  research/
-    README.md
-  results/
-    README.md
   upload_ready/
-    README.md
+    _HOW_TO_USE.md
 ```
+
+Create these folders only when the project reaches the point where they have
+real contents:
+
+- `research/` for scientific notes and provenance that do not belong in phase docs
+- `results/` for local outputs, rejected designs, and raw promotion inputs
+- `validation/` for stronger or orthogonal validation outputs
+
+Keep `upload_ready/` in the template because platform packaging is an explicit
+end-state contract. It must stay empty except for `_HOW_TO_USE.md` until a
+design actually passes the promotion gate.
 
 ## Minimum Startup Sequence
 
@@ -78,7 +77,7 @@ starter-template/
 3. Fill `candidates/reference_panel.json`
 4. Write `docs/phase0_target_freeze.md`
 5. Choose your cheap lane and strong lane in `pipeline/README.md`
-6. Document your stronger validation lane in `validation/README.md`
+6. Document the stronger validation lane in `pipeline/README.md`
 7. Decide whether the project is local-only or platform-writing
 8. Decide the canonical structure format and state path
 9. Run Phase 1 on references before generating a real candidate panel

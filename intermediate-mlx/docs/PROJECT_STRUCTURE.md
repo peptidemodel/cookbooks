@@ -17,6 +17,8 @@ my-mlx-project/
   pipeline/
     README.md
     manifests/
+  upload_ready/
+    _HOW_TO_USE.md
   docs/
     phase0_environment_check.md
     phase1_target_freeze.md
@@ -25,13 +27,11 @@ my-mlx-project/
     phase4_upgrade_validation.md
     phase5_closeout.md
     pause_state.md
-  research/
-    target_brief.md
-    provenance_notes.md
-  results/
-  validation/
-  upload_ready/
 ```
+
+Create `research/`, `results/`, and `validation/` only when they have real
+contents. Keep `upload_ready/` in the starter because platform packaging is a
+core contract, but it should contain only `_HOW_TO_USE.md` until promotion.
 
 ## Why This Layout Works
 
@@ -82,6 +82,8 @@ Contains phase decisions and operational truth:
 
 ### `research/`
 
+Create only when needed.
+
 Contains the scientific basis:
 
 - target biology notes
@@ -91,6 +93,8 @@ Contains the scientific basis:
 Do not bury reference provenance only in commit messages.
 
 ### `results/`
+
+Create only when needed.
 
 Contains clean phase outputs:
 
@@ -102,6 +106,8 @@ Contains clean phase outputs:
 
 ### `validation/`
 
+Create only when needed.
+
 Contains upgraded validation outputs:
 
 - multi-sample follow-up
@@ -109,6 +115,9 @@ Contains upgraded validation outputs:
 - orthogonal-lane comparisons
 
 ### `upload_ready/`
+
+Exists from the start because platform upload packaging is part of the cookbook
+contract. Add design folders only after a design passes the promotion gate.
 
 Contains promoted designs only.
 

@@ -149,7 +149,7 @@ inputs for that flow. It does not attempt to run strong validation itself, becau
 
 ## Phase Alignment
 
-These notebooks map to the phase system in `intermediate-linux-gpu/COMPUTE_STRATEGY.md`:
+These notebooks map to the phase system in `intermediate-linux-gpu/docs/COMPUTE_STRATEGY.md`:
 
 | Phase | Cookbook equivalent |
 |-------|-------------------|

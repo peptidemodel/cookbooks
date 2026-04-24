@@ -1,0 +1,28 @@
+{
+  "target": "myostatin_gdf8",
+  "target_length_aa": 375,
+  "run_class": "preview",
+  "model": "openfold3-mlx",
+  "model_version": "0.3.1",
+  "hardware": "apple_m4_base_16gb",
+  "random_seed": 42,
+  "num_diffusion_samples": 1,
+  "msa_strategy": "colabfold",
+  "cards": [
+    {
+      "card": "pep-00127",
+      "sequence": "VNDNTLFKWMIFNG",
+      "identity": "corrected Takayama DF-3",
+      "iptm": 0.674936830997467,
+      "sample_ranking_score": 0.7542499303817749
+    },
+    {
+      "card": "pep-10785",
+      "sequence": "WRQNTRYSRIEAIKIQILSKLRL",
+      "identity": "myostatin prodomain minimum peptide",
+      "iptm": 0.45521384477615356,
+      "sample_ranking_score": 0.5643476247787476
+    }
+  ],
+  "interpretation": "single-seed OF3-MLX preview only; not comparable to the science project's 25-seed AF2-Multimer/ipSAE lane"
+}

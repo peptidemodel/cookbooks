@@ -5,7 +5,7 @@ description: Route a user to the correct cookbook in this repo, then hand off to
 
 # Cookbook Router
 
-Use this skill as the first entrypoint when the user cloned the cookbook repo but has not yet picked a workflow.
+Use this skill as the first entrypoint after the user cloned `https://github.com/peptidemodel/cookbooks` but has not yet picked a workflow.
 
 ## What This Skill Does
 
@@ -37,14 +37,15 @@ Your first response should be short and concrete:
 - say which cookbook you selected
 - name the exact files the user should start from
 - mention whether a cookbook-specific skill-pack applies
-- state that the repo is ready
+- state that the repo is ready to use
 
 ## Files To Load
 
 For `intermediate-linux-gpu/`:
 - `intermediate-linux-gpu/README.md`
-- `intermediate-linux-gpu/PROJECT_STRUCTURE.md`
-- `intermediate-linux-gpu/TEMPLATES.md`
+- `intermediate-linux-gpu/docs/PROJECT_STRUCTURE.md`
+- `intermediate-linux-gpu/docs/TEMPLATES.md`
+- `intermediate-linux-gpu/docs/AGENT_BOOTSTRAP.md`
 - `intermediate-linux-gpu/skill-pack/peptide-research-ops/SKILL.md`
 
 For `intermediate-mlx/`:

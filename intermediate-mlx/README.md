@@ -69,7 +69,7 @@ project or how to decide when one-sample OF3 output is informative enough.
 12. [PROVENANCE_PROTOCOL.md](docs/PROVENANCE_PROTOCOL.md)
 13. [PAUSE_RESUME_PROTOCOL.md](docs/PAUSE_RESUME_PROTOCOL.md)
 14. [CLAIMS_LADDER.md](docs/CLAIMS_LADDER.md)
-15. [worked-example-df3-myostatin-preview](worked-example-df3-myostatin-preview)
+15. [myostatin-gdf8-preview](myostatin-gdf8-preview)
 16. [starter-template](starter-template)
 17. [skill-pack](skill-pack)
 
@@ -171,13 +171,14 @@ It is not about:
 
 ## Worked Example
 
-The cookbook includes one teaching example:
+The cookbook includes one standalone MLX teaching example:
 
-- [worked-example-df3-myostatin-preview](worked-example-df3-myostatin-preview)
+- [myostatin-gdf8-preview](myostatin-gdf8-preview)
 
-It demonstrates a minimal target-freeze to reference-panel setup based on a
-real peptide-target prediction pattern, but it is explicitly an example and not
-the universal default.
+It demonstrates the Myostatin/GDF-8 preview lane on Apple Silicon using
+MLX-style query JSON, preview-vs-upgrade gates, MLX memory limits, and the final
+`upload_ready/` packaging boundary. It is intentionally separate from the
+Linux/GPU target-decoy example so Mac users have a complete local entrypoint.
 
 ## Public Starter Template
 

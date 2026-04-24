@@ -1,0 +1,13 @@
+{
+  "model": "openfold3-mlx",
+  "model_version": "0.3.1",
+  "weights_hash": "aedd8f3eb814e3926c8974ef34c9499df224443f173b7e396c97684da6e3eeb6",
+  "hardware": "apple_m4_base_16gb",
+  "mlx_version": "0.31.1",
+  "python_version": "3.14.3",
+  "random_seed": 42,
+  "msa_strategy": "colabfold",
+  "num_diffusion_samples": 1,
+  "batch_id": "99266419",
+  "predicted_by_agent": "mlx@peptide"
+}

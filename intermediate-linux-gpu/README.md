@@ -54,22 +54,22 @@ It also does not assume you already know how to implement the actual pipeline sc
 
 ## Read In This Order
 
-1. [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)
-2. [WORKFLOW.md](WORKFLOW.md)
-3. [BEGINNER_NOTES.md](BEGINNER_NOTES.md)
-4. [AGENT_BOOTSTRAP.md](AGENT_BOOTSTRAP.md)
-5. [CHECKLISTS.md](CHECKLISTS.md)
-6. [PLATFORM_CONTRACT.md](PLATFORM_CONTRACT.md)
-7. [TEMPLATES.md](TEMPLATES.md)
-8. [COORDINATION.md](COORDINATION.md)
-9. [NO_PATCHCORD_MODE.md](NO_PATCHCORD_MODE.md)
-10. [METRICS_DICTIONARY.md](METRICS_DICTIONARY.md)
-11. [PAUSE_RESUME_PROTOCOL.md](PAUSE_RESUME_PROTOCOL.md)
-12. [COMPUTE_STRATEGY.md](COMPUTE_STRATEGY.md)
-13. [FAILURE_ATLAS.md](FAILURE_ATLAS.md)
-14. [CLAIMS_LADDER.md](CLAIMS_LADDER.md)
-15. [PROVENANCE_PROTOCOL.md](PROVENANCE_PROTOCOL.md)
-16. [worked-example-myostatin-lite](worked-example-myostatin-lite)
+1. [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
+2. [WORKFLOW.md](docs/WORKFLOW.md)
+3. [BEGINNER_NOTES.md](docs/BEGINNER_NOTES.md)
+4. [AGENT_BOOTSTRAP.md](docs/AGENT_BOOTSTRAP.md)
+5. [CHECKLISTS.md](docs/CHECKLISTS.md)
+6. [PLATFORM_CONTRACT.md](docs/PLATFORM_CONTRACT.md)
+7. [TEMPLATES.md](docs/TEMPLATES.md)
+8. [COORDINATION.md](docs/COORDINATION.md)
+9. [NO_PATCHCORD_MODE.md](docs/NO_PATCHCORD_MODE.md)
+10. [METRICS_DICTIONARY.md](docs/METRICS_DICTIONARY.md)
+11. [PAUSE_RESUME_PROTOCOL.md](docs/PAUSE_RESUME_PROTOCOL.md)
+12. [COMPUTE_STRATEGY.md](docs/COMPUTE_STRATEGY.md)
+13. [FAILURE_ATLAS.md](docs/FAILURE_ATLAS.md)
+14. [CLAIMS_LADDER.md](docs/CLAIMS_LADDER.md)
+15. [PROVENANCE_PROTOCOL.md](docs/PROVENANCE_PROTOCOL.md)
+16. [worked-example-myostatin-gdf8](worked-example-myostatin-gdf8)
 17. [starter-template](starter-template)
 18. [skill-pack](skill-pack)
 
@@ -156,8 +156,8 @@ The methodology should work in two modes:
 
 Use:
 
-- [COORDINATION.md](COORDINATION.md) for team mode
-- [NO_PATCHCORD_MODE.md](NO_PATCHCORD_MODE.md) for solo mode
+- [COORDINATION.md](docs/COORDINATION.md) for team mode
+- [NO_PATCHCORD_MODE.md](docs/NO_PATCHCORD_MODE.md) for solo mode
 
 ## Non-Negotiable Working Principles
 
@@ -211,11 +211,13 @@ Use that when you want to hand the workflow to another Codex-style environment w
 
 ## Worked Example
 
-The cookbook now also includes a small educational example project:
+The cookbook includes one canonical representative example:
 
-- [worked-example-myostatin-lite](worked-example-myostatin-lite)
+- [worked-example-myostatin-gdf8](worked-example-myostatin-gdf8)
 
-This is there to show what the first disciplined steps look like in practice.
+This is a compact public extraction of the real Myostatin/GDF-8 target-decoy
+workflow. It is the example to use when you want to understand the cookbook's
+phase-gated validation style.
 
 ## Public Starter Template
 

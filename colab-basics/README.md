@@ -9,7 +9,9 @@ decision, without requiring a local Linux machine or expensive cloud compute.
 ## Quick Start in Colab
 
 1. Click the **notebook 01** badge below.
-2. Run the cells in order from the top — the repo clones itself automatically on first run.
+2. In Colab, add a new code cell above the first notebook cell and run:
+   `!git clone https://github.com/peptidemodel/cookbooks /content/cookbooks`
+3. Then run the notebook cells in order from the top.
 
 Start with **notebook 01** — do not open a later notebook first.
 
@@ -58,11 +60,11 @@ Work through these in order. Later notebooks depend on outputs from earlier ones
 
 | # | Notebook | Open in Colab | Purpose | Tier |
 |---|----------|--------------|---------|------|
-| 01 | `01_target_surface_sanity.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/peptide-cookbooks-internal/blob/main/colab-basics/notebooks/01_target_surface_sanity.ipynb) | Freeze target chain, pocket, numbering | Free |
-| 02 | `02_reference_panel_check.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/peptide-cookbooks-internal/blob/main/colab-basics/notebooks/02_reference_panel_check.ipynb) | Prove the lane separates reference from nonsense | Free |
-| 03 | `03_single_peptide_eval.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/peptide-cookbooks-internal/blob/main/colab-basics/notebooks/03_single_peptide_eval.ipynb) | Evaluate one candidate peptide | Free |
-| 04 | `04_small_sar_scan.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/peptide-cookbooks-internal/blob/main/colab-basics/notebooks/04_small_sar_scan.ipynb) | Scan variants of a seed peptide | Free / Paid |
-| 05 | `05_promote_to_strong_validation.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/peptide-cookbooks-internal/blob/main/colab-basics/notebooks/05_promote_to_strong_validation.ipynb) | Build promotion bundle for stronger validation | Free |
+| 01 | `01_target_surface_sanity.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/cookbooks/blob/main/colab-basics/notebooks/01_target_surface_sanity.ipynb) | Freeze target chain, pocket, numbering | Free |
+| 02 | `02_reference_panel_check.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/cookbooks/blob/main/colab-basics/notebooks/02_reference_panel_check.ipynb) | Prove the lane separates reference from nonsense | Free |
+| 03 | `03_single_peptide_eval.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/cookbooks/blob/main/colab-basics/notebooks/03_single_peptide_eval.ipynb) | Evaluate one candidate peptide | Free |
+| 04 | `04_small_sar_scan.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/cookbooks/blob/main/colab-basics/notebooks/04_small_sar_scan.ipynb) | Scan variants of a seed peptide | Free / Paid |
+| 05 | `05_promote_to_strong_validation.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peptidemodel/cookbooks/blob/main/colab-basics/notebooks/05_promote_to_strong_validation.ipynb) | Build promotion bundle for stronger validation | Free |
 
 **Start with notebook 01.** Do not skip to 03 or 04 before completing 01 and 02.
 

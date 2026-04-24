@@ -1,0 +1,52 @@
+{
+  "project": "worked-example-myostatin-gdf8",
+  "status": "teaching-example",
+  "target_name": "myostatin_gdf8",
+  "primary_structure": {
+    "pdb": "3HH2",
+    "target_chain": "C",
+    "reference_complex_interface": "AB_C",
+    "note": "Use the 3HH2 myostatin/follistatin-derived DF-3 reference complex as the provenance anchor."
+  },
+  "mechanism_hypothesis": "Short follistatin-derived peptides may occupy the myostatin-binding surface and compete with the natural interface.",
+  "hotspot_policy": {
+    "source_numbering_required": true,
+    "predicted_complex_mapping_required": true,
+    "hotspot_killed_decoy_residues": [
+      "A27",
+      "A28",
+      "A29",
+      "A31",
+      "A32",
+      "A84",
+      "A86",
+      "A87",
+      "A88",
+      "A89",
+      "A91",
+      "A98",
+      "B49",
+      "B50",
+      "B56",
+      "B59"
+    ],
+    "note": "Do not assume source numbering and predicted numbering are the same. Keep the decoy residue list explicit."
+  },
+  "reference_policy": {
+    "positive_control": "df3_real",
+    "negative_controls": [
+      "hotspot_killed_receptor_decoy",
+      "rotated_peptide_decoy",
+      "f52y_adversarial_candidate"
+    ]
+  },
+  "scoring_lane": {
+    "primary_method": "fixed-backbone Rosetta interface analysis",
+    "primary_metric": "interface_dG",
+    "specificity_checks": [
+      "delta_vs_hotspot_killed",
+      "delta_vs_rotated"
+    ]
+  },
+  "next_gate": "candidate claims require stronger real-target dG plus positive deltas against hotspot-killed and rotated decoys"
+}

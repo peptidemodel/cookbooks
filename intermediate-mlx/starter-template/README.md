@@ -40,15 +40,20 @@ starter-template/
   pipeline/
     README.md
     manifests/
-  validation/
-    README.md
-  research/
-    README.md
-  results/
-    README.md
   upload_ready/
-    README.md
+    _HOW_TO_USE.md
 ```
+
+Create these folders only when the project reaches the point where they have
+real contents:
+
+- `research/` for target biology, sequence provenance, and control rationale
+- `results/` for local preview outputs, rejected designs, and raw promotion inputs
+- `validation/` for upgraded validation outputs
+
+Keep `upload_ready/` in the template because platform packaging is an explicit
+end-state contract. It must stay empty except for `_HOW_TO_USE.md` until a
+design actually passes the promotion gate.
 
 ## Minimum Startup Sequence
 

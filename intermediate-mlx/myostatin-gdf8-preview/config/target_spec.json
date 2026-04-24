@@ -1,0 +1,43 @@
+{
+  "project_name": "myostatin-gdf8-preview",
+  "target_family": "TGF-beta family ligand",
+  "primary_target": {
+    "id": "gdf8",
+    "display_name": "Myostatin / GDF-8",
+    "sequence_source": "sequences.json:gdf8_receptor",
+    "sequence_length_aa": 375,
+    "source_note": "OF3-MLX export from mlx@peptide, grounded against the Myostatin/GDF-8 science project context."
+  },
+  "reference_peptides": [
+    {
+      "card": "pep-00127",
+      "id": "df3_corrected",
+      "sequence": "VNDNTLFKWMIFNG",
+      "role": "positive_reference",
+      "provenance": "Takayama DF-3; 3HH2 follistatin chain C/D residues 41-54",
+      "of3_mlx_iptm": 0.674936830997467
+    },
+    {
+      "card": "pep-10785",
+      "id": "prodomain_minimum_peptide",
+      "sequence": "WRQNTRYSRIEAIKIQILSKLRL",
+      "role": "prodomain_comparator",
+      "provenance": "Myostatin prodomain minimum peptide",
+      "of3_mlx_iptm": 0.45521384477615356
+    }
+  ],
+  "chain_order": {
+    "peptide": "peptide",
+    "target": "gdf8"
+  },
+  "preview_mode": {
+    "model": "openfold3-mlx",
+    "num_diffusion_samples": 1,
+    "seed": 42,
+    "allowed_claim": "coarse MLX preview only"
+  },
+  "upgrade_mode": {
+    "trigger": "Only upgrade if the next run would change a real decision.",
+    "required_followup": "multi-sample MLX or orthogonal validation before upload_ready packaging"
+  }
+}

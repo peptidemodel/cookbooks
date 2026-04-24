@@ -1,0 +1,48 @@
+{
+  "panel_name": "myostatin_gdf8_reference_and_candidate_panel",
+  "purpose": "Show the corrected DF-3 reference, explicit decoys, and the candidate set used for target-decoy interpretation.",
+  "rows": [
+    {
+      "label": "df3_real",
+      "sequence": "VNDNTLFKWMIFNG",
+      "role": "primary_positive",
+      "provenance": "crystal-derived Takayama DF-3 segment from 3HH2",
+      "hypothesis": "DF-3 should score better on the real target than on hotspot-killed or rotated decoys."
+    },
+    {
+      "label": "v41f_w49f_i51v",
+      "sequence": "FNDNTLFKFMVFNG",
+      "role": "phase2_candidate",
+      "provenance": "candidate selected after upstream MLX/OpenFold3 full-panel screen",
+      "hypothesis": "Candidate should improve real-target interface_dG while preserving decoy separation."
+    },
+    {
+      "label": "v41y_w49f_i51v",
+      "sequence": "YNDNTLFKFMVFNG",
+      "role": "phase2_candidate",
+      "provenance": "candidate selected after upstream MLX/OpenFold3 full-panel screen",
+      "hypothesis": "Candidate should improve real-target interface_dG while preserving decoy separation."
+    },
+    {
+      "label": "w49f_i51v",
+      "sequence": "VNDNTLFKFMVFNG",
+      "role": "phase2_candidate",
+      "provenance": "candidate selected after upstream MLX/OpenFold3 full-panel screen",
+      "hypothesis": "Candidate should improve real-target interface_dG while preserving decoy separation."
+    },
+    {
+      "label": "m50f_i51v",
+      "sequence": "VNDNTLFKWFVFNG",
+      "role": "phase2_candidate",
+      "provenance": "candidate selected after upstream MLX/OpenFold3 full-panel screen",
+      "hypothesis": "Candidate should improve real-target interface_dG while preserving decoy separation."
+    },
+    {
+      "label": "f52y_adversarial",
+      "sequence": "VNDNTLFKWMIYNG",
+      "role": "adversarial_candidate",
+      "provenance": "candidate retained as a cautionary comparator",
+      "hypothesis": "Adversarial comparator may still bind but should not be overclaimed without stronger evidence."
+    }
+  ]
+}
